@@ -56,7 +56,6 @@ Then came the masterstroke: Group by **Today**, **Yesterday**, and **actual date
 - ✅ Tabs for Incoming / Outgoing / Missed / All
 - ✅ Call counts per number
 - ✅ Time of each call
-- ✅ Unicode contact support (Tamil, etc.)
 - ✅ Built completely on phone—no laptop, no emulator
 
 ---
