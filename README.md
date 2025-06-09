@@ -81,7 +81,7 @@ But then…
 🛠️ Built a Samsung Duos-style call log app using Java + AIDE  
 📵 No Android Studio, No PC, No Emulator  
 📱 Only a phone, sheer will, and a confused dad  
-☎️📇 “Turns out, building a basic call log app needed more HashMaps than my college DSA exam.” 🤯🗃️
+☎️📇 “Turns out, building a basic call log app needed more HashMaps than my college DSA exam.” 🤯🗃️  
 🤣 Spent hours just so my dad could say:  
 > "Hmm… now this looks okay."
 
