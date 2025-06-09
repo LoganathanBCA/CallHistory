@@ -1,73 +1,96 @@
 # 📞 Samsung Duos Style Call Log App
 
-## Problem Statement
+## 🤔 Problem Statement
 
-My father wanted the old Samsung Duos-style call history where multiple calls from the same number are grouped like:
+So one fine day, my father said:  
+> "I liked the old Samsung Duos phone. When someone called me three times, it showed **📞 9999999999 (3)**.  
+> Now your modern phone shows **9999999999** over and over again. Where’s the grouping?!"
 
-```
-📞 9999999999 (3)
-   🕒 09:45 AM
-   🕒 01:22 PM
-   🕒 07:10 PM
-```
-
-Modern Android shows each call as a separate entry—very cluttered and confusing.
-
-## The Options
-
-1. Download an app that does it ✅  
-2. Build it myself 😅
-
-Most would go with option 1, but my dad doesn’t even know how to open the Phone app—and doesn’t want to learn either. So I had no choice but to build an app just to display grouped call logs.
+That’s when it hit me:  
+Modern Android call history = Chaos ☠️  
+Samsung Duos call log = Peace 🧘‍♂️
 
 ---
 
-## Who Am I?
+## ⚙️ Two Options
 
-- 🎓 M.Sc. Computer Science graduate  
-- 🧠 2K kid raised in the Gen-AI era  
-- 🎯 Vibe coder  
+1. Find an app that does this  
+2. Build one from scratch  
 
----
-
-## Development Struggles
-
-- ❌ Android Studio was too heavy for my old laptop  
-- ❌ No unlimited internet, so no emulator  
-- ✅ Found AIDE (Android IDE) APK online (40MB lifesaver)  
-- ✅ Built and ran Java code directly on my phone  
-
-ChatGPT helped shape the logic. First, I got the call logs. Then, added tabs for **Incoming**, **Outgoing**, **Missed**, and **All** calls. Then I grouped them by **Today**, **Yesterday**, and dates like `7.6.2025`, `6.6.2025`, etc.
+Normally, you'd choose option 1. But my dad?  
+He doesn't want to learn how to open the Phone app, let alone install one.  
+So the burden fell upon me: **build an app to show call logs—and only call logs.**
 
 ---
 
-## Highlights
+## 🙋‍♂️ Who Am I?
 
-- Built entirely on phone using AIDE + Java  
-- No PC. No emulator. Just mobile + logic  
-- Grouped calls by day and number  
-- Supports Tamil and multilingual numbers  
-- No fancy UI libraries—just raw Android  
+- 🎓 M.Sc. Computer Science Graduate  
+- 🧠 2K kid, born in the Gen-AI boom  
+- 🎯 Vibe coder™  
+- ☕ Fueled by bad UI and strong opinions
 
 ---
 
-## What Went Wrong
+## 🛠️ The Struggle Was Real
 
-- Contacts version broke the grouping (2023 calls showed up under "Today")  
-- Permission issues caused crashes  
-- Reverted to number-only version for accuracy and clean UI  
+- 🪫 My laptop: 4GB RAM, 2 usable Chrome tabs before fainting  
+- 📴 Internet: Limited data, emulator out of the question  
+- ❌ Android Studio: NOPE  
+- ✅ Found AIDE (Android IDE) APK (40MB = life-changing)  
+- 🤝 ChatGPT: My coding buddy throughout
+
+Started with a basic Hello World app → Crashed  
+Then got call logs working → But ungrouped  
+Then added tabs: Incoming, Outgoing, Missed, All → Looked better  
+But then…  
+> Sorting was wild! Calls from 2023 appearing in "Today"! 😤
+
+Then came the masterstroke: Group by **Today**, **Yesterday**, and **actual dates** like `7.6.2025`, `6.6.2025`...
+
+---
+
+## 🎉 Features
+
+- ✅ Grouped call logs like Samsung Duos
+- ✅ Tabs for Incoming / Outgoing / Missed / All
+- ✅ Call counts per number
+- ✅ Time of each call
+- ✅ Unicode contact support (Tamil, etc.)
+- ✅ Built completely on phone—no laptop, no emulator
+
+---
+
+## 🐛 What Went Wrong
+
+- Giving contact access broke grouping logic  
+  > “Why is a 2023 contact appearing in today’s log?!”  
+- Crash after granting contact permission  
+- App lost its clean, modern UI and became Android 2.3 nostalgia  
+- Reverted to number-only mode → 💯 accurate and clean
 
 ---
 
 ## TL;DR
 
-✅ Created an old-school call log app (Samsung Duos style) using Java + AIDE  
-🚫 No Android Studio, PC, or emulator  
-📱 Just my phone, AIDE, and a reason: **Dad’s phone habits**
+🛠️ Built a Samsung Duos-style call log app using Java + AIDE  
+📵 No Android Studio, No PC, No Emulator  
+📱 Only a phone, sheer will, and a confused dad  
+🤣 Spent hours just so my dad could say:  
+> "Hmm… now this looks okay."
 
 ---
 
+## 📸 Screenshot
 
-### 🔗 GitHub Repo
+![screenshot](https://github.com/LoganathanBCA/CallHistory/blob/main/call%20history%20app%20screenshot.jpg?raw=true)
 
-[👉 View Source Code](https://github.com/LoganathanBCA/CallHistory)
+---
+
+## 🔗 GitHub Repo
+
+👉 [LoganathanBCA/CallHistory](https://github.com/LoganathanBCA/CallHistory)
+
+---
+
+📝 _Yes, I could’ve installed an app—but where’s the story in that?_ 😂
