@@ -34,19 +34,25 @@ So the burden fell upon me: **build an app to show call logs—and only call log
 
 ## 🛠️ The Struggle Was Real
 
-- 🪫 My laptop: 4GB RAM, 2 usable Chrome tabs before fainting  
+- 💻 My laptop: 4GB RAM, 2 usable Chrome tabs before fainting  
 - 📴 Internet: Limited data, emulator out of the question  
 - ❌ Android Studio: NOPE  
 - ✅ Found AIDE (Android IDE) APK (40MB = life-changing)  
 - 🤝 ChatGPT: My coding buddy throughout
 
-Started with a basic Hello World app → Crashed  
+😂 Exactly! Who would've thought displaying normal call logs would drag you into the world of Data Structures and Algorithms?
+
+Grouping by number and date? → HashMap
+Preserving order? → LinkedHashMap
+Avoiding duplicates? → Set logic
+Efficient lookup? → Map magic
+
+Yes, this app is secretly a DSA lab project in disguise! Even ChatGPT had to pull out its HashMap wand to make it work!
+
 Then got call logs working → But ungrouped  
 Then added tabs: Incoming, Outgoing, Missed, All → Looked better  
 But then…  
 > Sorting was wild! Calls from 2023 appearing in "Today"! 😤
-
-Then came the masterstroke: Group by **Today**, **Yesterday**, and **actual dates** like `7.6.2025`, `6.6.2025`...
 
 ---
 
@@ -75,6 +81,7 @@ Then came the masterstroke: Group by **Today**, **Yesterday**, and **actual date
 🛠️ Built a Samsung Duos-style call log app using Java + AIDE  
 📵 No Android Studio, No PC, No Emulator  
 📱 Only a phone, sheer will, and a confused dad  
+☎️📇 “Turns out, building a basic call log app needed more HashMaps than my college DSA exam.” 🤯🗃️
 🤣 Spent hours just so my dad could say:  
 > "Hmm… now this looks okay."
 
